@@ -2,7 +2,7 @@
 @section('judul','All Article')
 
 @section('konten')
-@section('baris')
+@section('table')
         <tr>
             <th>Id</th>
             <th>Title</th>
@@ -20,5 +20,5 @@
             <td>{{$article->created_at}}</td>
             <td>{{$article->updated_at}}</td>
         </tr>
-@endforeach
+        @endforeach
 @endsection

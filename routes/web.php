@@ -15,3 +15,4 @@ use App\Http\Controllers\MyController;
 */
 
 Route::get('/home', [MyController::class,'getAll']);
+Route::get('/home/{id}', [MyController::class,'getById']);

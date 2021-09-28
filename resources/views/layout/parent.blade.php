@@ -5,7 +5,7 @@
 <body>
 @section('konten')
     <table border='1'>
-        @section('baris')
+        @section('table')
     </table>    
 @show
 </body>

@@ -9,6 +9,11 @@ class MyController extends Controller
 {
     public function getAll(){
         $art = Article::all();
-        return view('Home',['ar'=>$art]);
+        return view('home',['ar'=>$art]);
+    }
+
+    public function getById($id){
+        $art = Article::find($id);
+        return view('home_id',['ar'=>$art]);
     }
 }
